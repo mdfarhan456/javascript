@@ -1,0 +1,22 @@
+#sec1{
+    display: flex;
+    margin-top: 2px;
+    
+    
+}
+#sec2{
+margin-top: 100px;
+margin-left: 400px;
+}
+#sec1 div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    margin-left: 2px;
+}
+#div{
+    height: 300px; 
+    width: 606px; 
+    border: 2px solid;
+    margin-left: 2px;
+}

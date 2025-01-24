@@ -1,3 +1,5 @@
+
+
 function text()
 {
     let change = document.querySelector("#change");
@@ -9,12 +11,12 @@ function text()
 }
 
 
-function hero()
-{
-    document.body.style.backgroundColor="red";
-}
+// function hero()
+// {
+//     document.body.style.backgroundColor="red";
+// }
 
-function res()
-{
-    document.body.style.backgroundColor="white";
-}
+// function res()
+// {
+//     document.body.style.backgroundColor="white";
+// }
