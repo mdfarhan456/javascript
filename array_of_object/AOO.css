@@ -1,0 +1,49 @@
+#show  {
+    display: flex;
+    margin-left: 500px;
+    
+}
+#show h1 div{
+     margin-left: 50px; 
+   /* // justify-content: space-between; */
+}
+/* #show h1{
+    background-color: aqua;
+}*/
+
+#name{ 
+    color: red;
+    font-style: italic;
+
+}
+#age{
+    color: blue;
+    font-style: italic;
+}
+#city{
+    color: green;
+    font-style: italic;
+}
+
+#div{
+    margin-left: 650px;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+}
+
+#name2{
+    color: blue;
+    padding: 10px;
+
+}
+#age2{
+    color: darkcyan;
+    padding: 10px;
+
+}
+#city2{
+    color: darkmagenta;
+    padding: 10px;
+
+}
