@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: blue;
 }
 #form{
@@ -6,6 +6,10 @@ body{
    width: max-content;
    margin-left: 600px;
    margin-top: 150px;
+   border-radius: 10px;
+   border: 2px solid;
+   box-shadow: 1px 1px 1px 1px black;
+
 }
 
 #form input{
@@ -14,6 +18,7 @@ body{
     margin-top: 20px;
     padding: 5px;
     width: 200px;
+    border-radius: 5px;
 }
 #but{
     
@@ -41,4 +46,100 @@ body{
     
 }
 
+     */
+ body{
+   align-items: center;
+   justify-content: center;
+    height: 100vh;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serifs;
+    background-image: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
     
+     animation: change 20s infinite;
+    
+    
+}
+
+ @keyframes change{
+    0%{
+    background-image: url(img1.jpg);
+    
+    }
+
+    20%{
+        background-image: url(img2.webp);
+        }
+
+        40%{
+            background-image: url(img3.jpg);
+            }
+
+            60%{
+                background-image: url(img4.jpg);
+                }
+                80%{
+                    background-image: url(img5.jpg);
+                    }
+                    100%{
+                        background-image: url(img6.jpg);
+                        }
+
+}  
+
+
+form{
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 4px 4px 0px 0px ;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: rgba(241, 109, 27, 0.258);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+    
+    
+
+}
+#head{
+       
+    align-self: center;
+}
+#but{
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    background-color: rgba(159, 40, 13, 0.543);
+    font-size: medium;
+    
+}
+
+
+
+#form input{
+    padding: 5px;
+    padding: 5px;
+    width: 200px;
+    border-radius: 5px;
+}
+#but:hover{
+    background-color:  rgba(159, 40, 13, 0.322);
+   
+    
+    
+} 
+
+  
+  
+  
+
+

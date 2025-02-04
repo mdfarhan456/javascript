@@ -15,18 +15,24 @@ let sub=()=>{
    // alert("submitted")
     
     if(inpname==""){
-        errname.innerHTML="please fill the name field"
-        errname.style.color="red"
+        let inputname=document.querySelector("#name")
+        inputname.style.border="1px solid red"
+        inputname.placeholder="please fill the name field"
+       // errname.innerHTML="please fill the name field"
+        //errname.style.color="red"
+        inputname.style.color="red"
         return false;
     }
 
     else if(isNaN(inpnum)){
+        errname.innerHTML=""
         errnum.innerHTML="please enter number only"
         errnum.style.color="red"
         return false
     }
 
     else if(inpnum.length!=10){
+        errname.innerHTML=""
         errnum.innerHTML="please enter 10 digits only"
         errnum.style.color="red"
         return false

@@ -14,18 +14,21 @@ let sub=()=>{
     if(inpname==""){
         errname.innerHTML="*Please fill the name field"
         errname.style.color="red"
+        document.querySelector("#name").focus()
         return false;
     }
 
     else if(isNaN(inpnum)){
         errnum.innerHTML="please enter number only"
         errnum.style.color="red"
+        document.querySelector("#number").focus()
         return false
     }
 
     else if(inpnum.length!=10){
         errnum.innerHTML="*please enter 10 digits only"
         errnum.style.color="red"
+        document.querySelector("#number").focus()
         return false;
 
     }
@@ -33,6 +36,7 @@ let sub=()=>{
     else if(!(inpemail.includes('@') && inpemail.includes('.com'))){
         erremail.innerHTML="*please enter valid email"
         erremail.style.color="red"
+        document.querySelector("#email").focus()
         return false;
 
     }
@@ -40,6 +44,9 @@ let sub=()=>{
     else if(inppass!=inpcpass){
         errcpass.innerHTML="*please enter same password"
         errcpass.style.color="red"
+        document.querySelector("#cpass").value=""
+        document.querySelector("#cpass").focus()
+
         return false;
 
     }
