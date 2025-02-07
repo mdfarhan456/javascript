@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Circles</title>
+  <style>
+    .circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: blue;
+      display: inline-block;
+      margin: 5px;
+    }
+    body{
+   display: flex;     
+    align-items: center;         
+    justify-content: center; 
+    flex-direction: column; 
+    }
+    #box{
+      margin-top: 50px;
+      width: 100px;
+      height: 100px;
+      border: 2px solid;
+
+    }
+    #btn{
+      padding: 5px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="generateCircles()" id="btn">Roll</button>
+
+  <div id="box">
+
+  <div id="circles"></div>
+
+</div>
+
+  
+
+  <script src="circle.js"></script>
+</body>
+</html>
